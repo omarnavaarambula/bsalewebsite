@@ -1,0 +1,253 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+img {
+    height: 320px;
+    width: 150px;    
+    object-fit: cover;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+    
+    }
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: #eaeaea;
+	color: #1d1d1d;
+}
+
+.contenedor {
+	width: 86%;
+	/* max-width: 1000px; */
+	margin: 40px auto 100px auto;
+text-align: center;
+text-align: justify;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+    cursor: default;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contenedor .productos {
+	text-align: center;
+    background-color: #ccccccc9;
+    border-radius: 10px;
+    width: 275px;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+}
+
+.contenedor .productos:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-5%);
+}
+.contenedor .productos:last-child{
+
+        margin-bottom: 60px;
+ } 
+
+.contenedor .productos .titulo {
+	font-size: 16px;
+	font-weight: 600px;
+}
+
+.contenedor .productos .poster {
+	width: 100%;
+	margin-bottom: 10px;
+	border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor .productos .price {
+    width: auto;
+    height: auto;
+    background-color: #446e4171;
+    border-radius: 10px;
+}
+
+.paginacion {
+	position: fixed;
+	bottom: 0;
+	background: #100a1f;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	gap: 20px;
+	padding: 10px;
+}
+
+.paginacion button {
+	cursor: pointer;
+	border: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	height: 50px;
+	width: 200px;
+	background: #241744;
+	color: #fff;
+	border-radius: 100px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	transition: .3s ease all;
+}
+
+.paginacion button:hover {
+	background: #137c32;
+}
+
+/* cambio de linea */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+input{
+    width: 50vw;
+    padding: 10px;
+    outline: none;
+    border: 2px solid #e1e3eb;
+    font-weight: 600;
+}
+
+#listaArticulos{
+    font-size: 30px;
+    margin-top: 20px;
+    list-style: none;
+    font-weight: 600;
+    color: #ffffff;
+    text-align: center;
+}
+li{
+    margin: 5px 0;
+}
+
+.filtro{
+    display: none;
+}
+
+.search__One{
+    margin-top: 20px;
+    border-radius: 15px;
+    text-align: center;
+    align-content: center;
+    cursor: default;
+}
+.menu__log{
+background-color: #137c32;
+width: 100%;
+height: 125px;
+
+}
+header {
+    background: url(/img/img-logos-logo-bsale-naranjo-merged.png) no-repeat;
+    filter: brightness(1.1);
+    mix-blend-mode: multiply;
+}
+
+.img__center{
+    background-color: blue;
+    width: 100px;
+    height: 150px;
+}
+
+.data__dev{
+    background-color: #137c32;
+    width: 100%;
+    height: 150px;
+    display: block;
+
+}
+/* footer */
+.footer__bsale{
+    background-color: rgba(10, 10, 10, 0.856);
+    color: #000000;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    height: 20rem;
+    padding: 2rem;
+    cursor: default;
+    height: 270px;
+    
+}
+
+.imgcont{
+    filter: invert(1) sepia(1) hue-rotate(20deg);
+
+    width: 30px;
+    height: 30px;
+}
+
+.fade
+{
+        opacity:.95;
+        cursor: default;
+    
+}
+.fade:hover
+{
+        opacity:1;
+        cursor: default;
+    
+}
+.cont__contactos{
+    display: inline-flex;
+    position: relative;
+    top: 3rem; 
+    cursor: default;
+    align-items: center;
+    
+
+}
+.cont__contactos > p{
+    margin: 2rem;
+    cursor: default;
+    
+
+}
+.p__todos{
+    text-decoration: none;
+    color: #000000;
+    position: relative;
+    bottom: -4rem;
+}
+.rigths{
+    position: relative;
+    bottom: -4rem;
+    font-size: .7rem;
+    cursor: default;
+    
+}
+
+.imgcontwz{
+    width: 30px;
+    height: 30px;
+
+}
